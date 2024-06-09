@@ -24,7 +24,7 @@ export async function getStaticProps () {
 const Portfolio = () => {
   const BLOG = useConfig()
   const layout = "blog"
-  const fullWidth = true
+  // const fullWidth = true
 
   const url = BLOG.path.length ? `${BLOG.link}/${BLOG.path}` : BLOG.link
   const meta = {
