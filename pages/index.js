@@ -6,6 +6,11 @@ import Head from 'next/head'
 import { useConfig } from '@/lib/config'
 import cn from 'classnames'
 
+import { Suspense } from 'react';
+import { unstable_noStore as noStore } from 'next/cache';
+import Link from 'next/link';
+import Image from 'next/image';
+
 export async function getStaticProps () {
   const posts = await getAllPosts({ includePages: false })
   const postsToShow = posts.slice(0, clientConfig.postsPerPage)
@@ -19,6 +24,16 @@ export async function getStaticProps () {
     },
     revalidate: 1
   }
+}
+
+function Badge(props) {
+  return (
+    <a
+      {...props}
+      target="_blank"
+      className="inline-flex items-center rounded border border-neutral-200 bg-neutral-50 p-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100"
+    />
+  );
 }
 
 const Portfolio = () => {
@@ -98,12 +113,22 @@ const Portfolio = () => {
             <article className="mb-6 md:mb-8">
               <header className="flex flex-col justify-between md:flex-row md:items-baseline">
                 <h2 className="text-lg md:text-xl font-medium mb-2 cursor-pointer text-black dark:text-gray-100">
-                  <p>Hi, I&apos;m Qiwei Mao </p>
+                  <p>Hi, I&apos;m Qiwei Mao 👋</p>
                 </h2>
               </header>
               <main>
                 <p className="leading-8 text-gray-700 dark:text-gray-300">
                   <p>I&apos;m a geotechnical engineer with a passion for IoT systems. I&apos;m exploring low-power microcontrollers and LoRa communication systems to enable both hobbyist remote monitoring solutions and industrial-grade monitoring or control systems.</p>
+                  <Badge href="https://github.com/qiweimao">
+                    <img
+                      alt="Github logomark"
+                      src="/github-mark.svg"
+                      className="!mr-1"
+                      width="14"
+                      height="14"
+                    />
+                    Github
+                  </Badge>
                 </p>
               </main>
             </article>
