@@ -95,7 +95,7 @@ const Portfolio = () => {
           layout !== 'blog' && ['self-center px-4', fullWidth ? 'md:px-24' : 'w-full max-w-2xl']
         )}>
           <article className={cn('flex flex-col', fullWidth ? 'md:px-24' : 'items-center')}>
-            <p>Hi, I'm Qiwei Mao, a geotechnical engineer with a passion for IoT systems. I'm exploring low-power microcontrollers and LoRa communication systems to enable both hobbyist remote monitoring solutions and industrial-grade monitoring or control systems.</p>
+            <p>Hi, I&apos;m Qiwei Mao, a geotechnical engineer with a passion for IoT systems. I&apos;m exploring low-power microcontrollers and LoRa communication systems to enable both hobbyist remote monitoring solutions and industrial-grade monitoring or control systems.</p>
           </article>
         </main>
         <Footer fullWidth={fullWidth} />
