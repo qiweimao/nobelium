@@ -102,7 +102,7 @@ const Portfolio = () => {
                 </h2>
               </header>
               <main>
-                <p className="hidden md:block leading-8 text-gray-700 dark:text-gray-300">
+                <p className="leading-8 text-gray-700 dark:text-gray-300">
                   <p>I&apos;m a geotechnical engineer with a passion for IoT systems. I&apos;m exploring low-power microcontrollers and LoRa communication systems to enable both hobbyist remote monitoring solutions and industrial-grade monitoring or control systems.</p>
                 </p>
               </main>
