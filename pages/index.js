@@ -25,7 +25,7 @@ const Portfolio = () => {
   return (
     <div>
       <h1>My Portfolio</h1>
-      <p>Welcome to my portfolio page.</p>
+      <p>Welcome to my portfolio page. Test</p>
       {/* Add more portfolio content here */}
     </div>
   );
