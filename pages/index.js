@@ -92,9 +92,9 @@ const Portfolio = () => {
         />
         <main className={cn(
           'flex-grow transition-all',
-          layout !== 'blog' && ['self-center px-4', fullWidth ? 'md:px-24' : 'w-full max-w-2xl']
+          layout !== 'blog' && ['self-center px-4', 'w-full max-w-2xl']
         )}>
-          <article className={cn('flex flex-col', fullWidth ? 'md:px-24' : 'items-center')}>
+          <article className={cn('flex flex-col', 'items-center')}>
             <article className="mb-6 md:mb-8">
               <header className="flex flex-col justify-between md:flex-row md:items-baseline">
                 <h2 className="text-lg md:text-xl font-medium mb-2 cursor-pointer text-black dark:text-gray-100">
