@@ -94,7 +94,9 @@ const Portfolio = () => {
           'flex-grow transition-all',
           layout !== 'blog' && ['self-center px-4', fullWidth ? 'md:px-24' : 'w-full max-w-2xl']
         )}>
-          <p>12345 Test</p>
+          <article className={cn('flex flex-col', fullWidth ? 'md:px-24' : 'items-center')}>
+            <p>12345 Test</p>
+          </article>
         </main>
         <Footer fullWidth={fullWidth} />
       </div>
