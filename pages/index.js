@@ -1,10 +1,10 @@
 import { clientConfig } from '@/lib/server/config'
-
-import Container from '@/components/Container'
-import BlogPost from '@/components/BlogPost'
-import Pagination from '@/components/Pagination'
 import { getAllPosts } from '@/lib/notion'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
+import Head from 'next/head'
 import { useConfig } from '@/lib/config'
+import cn from 'classnames'
 
 export async function getStaticProps () {
   const posts = await getAllPosts({ includePages: false })
