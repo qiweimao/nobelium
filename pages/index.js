@@ -10,6 +10,7 @@ import { Suspense } from 'react';
 import { unstable_noStore as noStore } from 'next/cache';
 import Link from 'next/link';
 import Image from 'next/image';
+import { description } from '@/blog.config'
 
 export async function getStaticProps () {
   const posts = await getAllPosts({ includePages: false })
@@ -45,6 +46,7 @@ const Portfolio = () => {
   const meta = {
     title: BLOG.title,
     type: 'website',
+    description: BLOG.description,
   }
 
   return (
@@ -133,7 +135,7 @@ const Portfolio = () => {
                     <Badge href="https://www.linkedin.com/in/qiwei-mao">
                       <img
                         alt="LinkedIn logomark"
-                        src="LI-In-Bug.png"
+                        src="linkedin.svg"
                         className="!mr-1"
                         width="14"
                         height="14"
