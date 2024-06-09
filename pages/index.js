@@ -119,16 +119,28 @@ const Portfolio = () => {
               <main>
                 <p className="leading-8 text-gray-700 dark:text-gray-300">
                   <p>I&apos;m a geotechnical engineer with a passion for IoT systems. I&apos;m exploring low-power microcontrollers and LoRa communication systems to enable both hobbyist remote monitoring solutions and industrial-grade monitoring or control systems.</p>
-                  <Badge href="https://github.com/qiweimao">
-                    <img
-                      alt="Github logomark"
-                      src="/github-mark.svg"
-                      className="!mr-1"
-                      width="14"
-                      height="14"
-                    />
-                    Github
-                  </Badge>
+                  <p>
+                    <Badge href="https://github.com/qiweimao">
+                      <img
+                        alt="Github logomark"
+                        src="/github-mark.svg"
+                        className="!mr-1"
+                        width="14"
+                        height="14"
+                      />
+                      Github
+                    </Badge>
+                    <Badge href="https://www.linkedin.com/in/qiwei-mao">
+                      <img
+                        alt="LinkedIn logomark"
+                        src="LI-In-Bug.png"
+                        className="!mr-1"
+                        width="14"
+                        height="14"
+                      />
+                      LinkedIn
+                    </Badge>
+                  </p>
                 </p>
               </main>
             </article>
