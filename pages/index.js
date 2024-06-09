@@ -30,7 +30,6 @@ const Portfolio = () => {
   const meta = {
     title: BLOG.title,
     type: 'website',
-    ...customMeta
   }
 
   return (
