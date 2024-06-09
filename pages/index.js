@@ -35,7 +35,7 @@ const Portfolio = () => {
   return (
     <div>
       <Head>
-        <title>meta.title</title>
+        <title>{meta.title}</title>
         {/* <meta content={BLOG.darkBackground} name="theme-color" /> */}
         <meta name="robots" content="follow, index" />
         <meta charSet="UTF-8" />
@@ -95,7 +95,18 @@ const Portfolio = () => {
           layout !== 'blog' && ['self-center px-4', fullWidth ? 'md:px-24' : 'w-full max-w-2xl']
         )}>
           <article className={cn('flex flex-col', fullWidth ? 'md:px-24' : 'items-center')}>
-            <p>Hi, I&apos;m Qiwei Mao, a geotechnical engineer with a passion for IoT systems. I&apos;m exploring low-power microcontrollers and LoRa communication systems to enable both hobbyist remote monitoring solutions and industrial-grade monitoring or control systems.</p>
+            <article className="mb-6 md:mb-8">
+              <header className="flex flex-col justify-between md:flex-row md:items-baseline">
+                <h2 className="text-lg md:text-xl font-medium mb-2 cursor-pointer text-black dark:text-gray-100">
+                  <p>Hi, I&apos;m Qiwei Mao </p>
+                </h2>
+              </header>
+              <main>
+                <p className="hidden md:block leading-8 text-gray-700 dark:text-gray-300">
+                  <p>I&apos;m a geotechnical engineer with a passion for IoT systems. I&apos;m exploring low-power microcontrollers and LoRa communication systems to enable both hobbyist remote monitoring solutions and industrial-grade monitoring or control systems.</p>
+                </p>
+              </main>
+            </article>
           </article>
         </main>
         <Footer fullWidth={fullWidth} />
