@@ -113,9 +113,9 @@ const Portfolio = () => {
           <article className={cn('flex flex-col', 'items-center')}>
             <article className="mb-6 md:mb-8">
               <header className="flex flex-col justify-between md:flex-row md:items-baseline">
-                <h2 className="text-lg md:text-xl font-medium mb-2 cursor-pointer text-black dark:text-gray-100">
-                  <p>Hi, I&apos;m Qiwei Mao 👋</p>
-                </h2>
+                <h1 className="text-lg md:text-xl font-medium mb-2 cursor-pointer text-black dark:text-gray-100">
+                  Hi, I&apos;m Qiwei Mao 👋
+                </h1>
               </header>
               <main>
                 <p className="leading-8 text-gray-700 dark:text-gray-300">
