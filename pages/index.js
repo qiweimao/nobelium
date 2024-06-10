@@ -130,6 +130,7 @@ const Portfolio = () => {
                       />
                       Github
                     </Badge>
+                    {` `}
                     <Badge href="https://www.linkedin.com/in/qiwei-mao">
                       <img
                         alt="LinkedIn logomark"
