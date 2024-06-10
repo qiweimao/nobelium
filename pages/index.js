@@ -127,36 +127,6 @@ const Portfolio = () => {
               <main>
                 <p className="leading-8 text-gray-700 dark:text-gray-300">
                   <p>I&apos;m a geotechnical engineer with a passion for IoT systems. I&apos;m exploring low-power microcontrollers and LoRa communication systems to enable both hobbyist remote monitoring solutions and industrial-grade monitoring or control systems.</p>
-                  <p>
-                    <Badge href="https://github.com/qiweimao">
-                      <img
-                        alt="Github logomark light mode"
-                        src="/github-mark-light.svg"
-                        className="!mr-1 dark:hidden"
-                        width="14"
-                        height="14"
-                      />
-                      <img
-                        alt="Github logomark dark mode"
-                        src="/github-mark-dark.svg"
-                        className="!mr-1 hidden dark:block"
-                        width="14"
-                        height="14"
-                      />
-                      Github
-                    </Badge>
-                    {` `}
-                    <Badge href="https://www.linkedin.com/in/qiwei-mao">
-                      <img
-                        alt="LinkedIn logomark"
-                        src="linkedin.svg"
-                        className="!mr-1"
-                        width="14"
-                        height="14"
-                      />
-                      LinkedIn
-                    </Badge>
-                  </p>
                 </p>
                 <div className="grid grid-cols-2 grid-rows-4 sm:grid-rows-3 sm:grid-cols-3 gap-4 my-8">
                   <div className="relative h-40">
@@ -220,6 +190,36 @@ const Portfolio = () => {
                     />
                   </div>
                 </div>
+                <p>
+                    <Badge href="https://github.com/qiweimao">
+                      <img
+                        alt="Github logomark light mode"
+                        src="/github-mark-light.svg"
+                        className="!mr-1 dark:hidden"
+                        width="14"
+                        height="14"
+                      />
+                      <img
+                        alt="Github logomark dark mode"
+                        src="/github-mark-dark.svg"
+                        className="!mr-1 hidden dark:block"
+                        width="14"
+                        height="14"
+                      />
+                      Github
+                    </Badge>
+                    {` `}
+                    <Badge href="https://www.linkedin.com/in/qiwei-mao">
+                      <img
+                        alt="LinkedIn logomark"
+                        src="linkedin.svg"
+                        className="!mr-1"
+                        width="14"
+                        height="14"
+                      />
+                      LinkedIn
+                    </Badge>
+                  </p>
               </main>
             </article>
           </article>
