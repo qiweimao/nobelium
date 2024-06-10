@@ -142,7 +142,7 @@ const Portfolio = () => {
                   <div className="relative sm:row-span-2 row-span-1">
                     <Image
                       alt="Me standing on stage at Reactathon delivering the keynote"
-                      src={breadboard}
+                      src={portrait}
                       fill
                       sizes="(max-width: 768px) 213px, 33vw"
                       priority
@@ -182,7 +182,7 @@ const Portfolio = () => {
                   <div className="relative h-40">
                     <Image
                       alt="Me standing on stage at SmashingConf giving a talk about my optimism for the web"
-                      src={portrait}
+                      src={breadboard}
                       fill
                       sizes="(max-width: 768px) 213px, 33vw"
                       priority
