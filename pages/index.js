@@ -45,6 +45,7 @@ const Portfolio = () => {
   const meta = {
     title: BLOG.title,
     type: 'website',
+    description: 'A Geotechnical Engineer\'s Journey into IoT',
   }
 
   return (
