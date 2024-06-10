@@ -141,7 +141,7 @@ const Portfolio = () => {
                     <Badge href="https://www.linkedin.com/in/qiwei-mao">
                       <img
                         alt="LinkedIn logomark"
-                        src="LI-In-Bug.png"
+                        src="linkedin.svg"
                         className="!mr-1"
                         width="14"
                         height="14"
