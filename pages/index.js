@@ -122,9 +122,16 @@ const Portfolio = () => {
                   <p>
                     <Badge href="https://github.com/qiweimao">
                       <img
-                        alt="Github logomark"
-                        src="/github-mark.svg"
-                        className="!mr-1"
+                        alt="Github logomark light mode"
+                        src="/github-mark-light.svg"
+                        className="!mr-1 dark:hidden"
+                        width="14"
+                        height="14"
+                      />
+                      <img
+                        alt="Github logomark dark mode"
+                        src="/github-mark-dark.svg"
+                        className="!mr-1 hidden dark:block"
                         width="14"
                         height="14"
                       />
