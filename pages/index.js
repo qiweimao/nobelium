@@ -11,12 +11,12 @@ import { unstable_noStore as noStore } from 'next/cache';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import miata from 'homepage/miata.JPG'
-import breadboard from 'homepage/breadboard.jpeg'
-import nomi_1 from 'homepage/nomi_1.JPG'
-import nomi_2 from 'homepage/nomi_2.jpeg'
-import jeep from 'homepage/jeep.JPG'
-import portrait from 'homepage/portrait.JPG'
+import miata from '/homepage/miata.JPG'
+import breadboard from '/homepage/breadboard.jpeg'
+import nomi_1 from '/homepage/nomi_1.JPG'
+import nomi_2 from '/homepage/nomi_2.jpeg'
+import jeep from '/homepage/jeep.JPG'
+import portrait from '/homepage/portrait.JPG'
 
 export async function getStaticProps () {
   const posts = await getAllPosts({ includePages: false })
