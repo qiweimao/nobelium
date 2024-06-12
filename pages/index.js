@@ -197,41 +197,41 @@ const Portfolio = () => {
                       <img
                         alt="Github logomark light mode - Qiwei Mao"
                         src="/github-mark-light.svg"
-                        className="!mr-1 dark:hidden"
+                        className="dark:hidden"
                         width="14"
                         height="14"
                       />
                       <img
                         alt="Github logomark dark mode - Qiwei Mao"
                         src="/github-mark-dark.svg"
-                        className="!mr-1 hidden dark:block"
+                        className="hidden dark:block"
                         width="14"
                         height="14"
                       />
                     </Badge>
+                    {` `}
                     <Badge href="https://www.linkedin.com/in/qiwei-mao">
                       <img
                         alt="LinkedIn logomark - Qiwei Mao"
                         src="linkedin.svg"
-                        className="!mr-1"
                         width="14"
                         height="14"
                       />
                     </Badge>
+                    {` `}
                     <Badge href="https://x.com/QiweiMao">
                       <img
                         alt="X logomark - Qiwei Mao"
                         src="twitter.svg"
-                        className="!mr-1"
                         width="14"
                         height="14"
                       />
                     </Badge>
+                    {` `}
                     <Badge href="https://www.reddit.com/user/qiweimao">
                       <img
                         alt="Reddit logomark - Qiwei Mao"
                         src="reddit.svg"
-                        className="!mr-1"
                         width="14"
                         height="14"
                       />
