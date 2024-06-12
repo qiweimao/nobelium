@@ -209,7 +209,6 @@ const Portfolio = () => {
                         height="14"
                       />
                     </Badge>
-                    {` `}
                     <Badge href="https://www.linkedin.com/in/qiwei-mao">
                       <img
                         alt="LinkedIn logomark - Qiwei Mao"
@@ -219,7 +218,6 @@ const Portfolio = () => {
                         height="14"
                       />
                     </Badge>
-                    {` `}
                     <Badge href="https://x.com/QiweiMao">
                       <img
                         alt="X logomark - Qiwei Mao"
@@ -229,7 +227,6 @@ const Portfolio = () => {
                         height="14"
                       />
                     </Badge>
-                    {` `}
                     <Badge href="https://www.reddit.com/user/qiweimao">
                       <img
                         alt="Reddit logomark - Qiwei Mao"
