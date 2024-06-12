@@ -208,7 +208,6 @@ const Portfolio = () => {
                         width="14"
                         height="14"
                       />
-                      Github
                     </Badge>
                     {` `}
                     <Badge href="https://www.linkedin.com/in/qiwei-mao">
@@ -219,7 +218,6 @@ const Portfolio = () => {
                         width="14"
                         height="14"
                       />
-                      LinkedIn
                     </Badge>
                     {` `}
                     <Badge href="https://x.com/QiweiMao">
@@ -230,7 +228,6 @@ const Portfolio = () => {
                         width="14"
                         height="14"
                       />
-                      X
                     </Badge>
                     {` `}
                     <Badge href="https://www.reddit.com/user/qiweimao">
@@ -241,7 +238,6 @@ const Portfolio = () => {
                         width="14"
                         height="14"
                       />
-                      <span className='text-center'>Reddit</span>
                     </Badge>
                   </p>
               </main>
