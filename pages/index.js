@@ -193,14 +193,14 @@ const Portfolio = () => {
                 <p>
                     <Badge href="https://github.com/qiweimao">
                       <img
-                        alt="Github logomark light mode"
+                        alt="Github logomark light mode - Qiwei Mao"
                         src="/github-mark-light.svg"
                         className="!mr-1 dark:hidden"
                         width="14"
                         height="14"
                       />
                       <img
-                        alt="Github logomark dark mode"
+                        alt="Github logomark dark mode - Qiwei Mao"
                         src="/github-mark-dark.svg"
                         className="!mr-1 hidden dark:block"
                         width="14"
@@ -211,13 +211,35 @@ const Portfolio = () => {
                     {` `}
                     <Badge href="https://www.linkedin.com/in/qiwei-mao">
                       <img
-                        alt="LinkedIn logomark"
+                        alt="LinkedIn logomark - Qiwei Mao"
                         src="linkedin.svg"
                         className="!mr-1"
                         width="14"
                         height="14"
                       />
                       LinkedIn
+                    </Badge>
+                    {` `}
+                    <Badge href="https://x.com/QiweiMao">
+                      <img
+                        alt="X logomark - Qiwei Mao"
+                        src="twitter.svg"
+                        className="!mr-1"
+                        width="14"
+                        height="14"
+                      />
+                      X
+                    </Badge>
+                    {` `}
+                    <Badge href="https://www.reddit.com/user/qiweimao">
+                      <img
+                        alt="Reddit logomark - Qiwei Mao"
+                        src="reddit.svg"
+                        className="!mr-1"
+                        width="14"
+                        height="14"
+                      />
+                      Reddit
                     </Badge>
                   </p>
               </main>
