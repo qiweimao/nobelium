@@ -241,7 +241,7 @@ const Portfolio = () => {
                         width="14"
                         height="14"
                       />
-                      Reddit
+                      <span className='text-center'>Reddit</span>
                     </Badge>
                   </p>
               </main>
