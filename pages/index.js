@@ -217,6 +217,15 @@ const Portfolio = () => {
                       />
                     </Badge>
                     {` `}
+                    <Badge href="https://www.instagram.com/qiweimao_dev">
+                      <img
+                        alt="Instagram logomark - Qiwei Mao"
+                        src="instagram.svg"
+                        width="14"
+                        height="14"
+                      />
+                    </Badge>
+                    {` `}
                     <Badge href="https://x.com/QiweiMao">
                       <img
                         alt="X logomark - Qiwei Mao"
