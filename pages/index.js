@@ -131,7 +131,7 @@ const Portfolio = () => {
                 <div className="grid grid-cols-2 grid-rows-4 sm:grid-rows-3 sm:grid-cols-3 gap-4 my-8">
                   <div className="relative h-40">
                     <Image
-                      alt="Me speaking on stage at React Summit about the future of Next.js"
+                      alt="Qiwei Mao - Miata"
                       src={miata}
                       fill
                       sizes="(max-width: 768px) 213px, 33vw"
@@ -141,7 +141,7 @@ const Portfolio = () => {
                   </div>
                   <div className="relative sm:row-span-2 row-span-1">
                     <Image
-                      alt="Me standing on stage at Reactathon delivering the keynote"
+                      alt="Qiwei Mao - Portrait"
                       src={portrait}
                       fill
                       sizes="(max-width: 768px) 213px, 33vw"
@@ -151,7 +151,7 @@ const Portfolio = () => {
                   </div>
                   <div className="relative">
                     <Image
-                      alt="Me and Guillermo Rauch on stage for Vercel Ship, answering questions from the Next.js community"
+                      alt="Qiwei Mao's Cat"
                       src={nomi_1}
                       fill
                       sizes="(max-width: 768px) 213px, 33vw"
@@ -161,7 +161,7 @@ const Portfolio = () => {
                   </div>
                   <div className="relative row-span-2">
                     <Image
-                      alt="Me, Lydia, and Delba filming the Next.js Conf keynote"
+                      alt="Qiwei Mao - Cat 2"
                       src={nomi_2}
                       fill
                       sizes="(max-width: 768px) 213px, 33vw"
@@ -171,7 +171,7 @@ const Portfolio = () => {
                   </div>
                   <div className="relative row-span-2">
                     <Image
-                      alt="My badge on top of a pile of badges from a Vercel meetup we held"
+                      alt="Qiwei Mao - Having fun with my Jeep"
                       src={jeep}
                       fill
                       sizes="(max-width: 768px) 213px, 33vw"
@@ -181,7 +181,7 @@ const Portfolio = () => {
                   </div>
                   <div className="relative h-40">
                     <Image
-                      alt="Me standing on stage at SmashingConf giving a talk about my optimism for the web"
+                      alt="Qiwei Mao's DevBoard"
                       src={breadboard}
                       fill
                       sizes="(max-width: 768px) 213px, 33vw"
