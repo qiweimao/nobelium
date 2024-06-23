@@ -81,11 +81,15 @@ const Portfolio = () => {
           property="og:url"
           content={meta.slug ? `${url}/${meta.slug}` : url}
         />
-        <meta
+        {/* <meta
           property="og:image"
           content={`${BLOG.ogImageGenerateURL}/${encodeURIComponent(
             meta.title
           )}.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fnobelium.vercel.app%2Flogo-for-dark-bg.svg`}
+        /> */}
+        <meta
+          property="og:image"
+          content={"https://www.qiweimao.dev/Qiwei_Mao_og_image.jpg"}
         />
         <meta property="og:type" content={meta.type} />
         <meta name="twitter:card" content="summary_large_image" />
