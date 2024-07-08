@@ -13,7 +13,7 @@ import Image from 'next/image';
 
 import miata from 'public/homepage/miata.JPG'
 import breadboard from 'public/homepage/breadboard.jpeg'
-import nomi_1 from 'public/homepage/nomi_1.JPG'
+import portrait_2 from 'public/homepage/portrait_2.JPG'
 import nomi_2 from 'public/homepage/nomi_2.jpeg'
 import jeep from 'public/homepage/jeep.JPG'
 import portrait from 'public/homepage/portrait.JPG'
@@ -151,8 +151,8 @@ const Portfolio = () => {
                   </div>
                   <div className="relative">
                     <Image
-                      alt="Qiwei Mao's Cat"
-                      src={nomi_1}
+                      alt="Qiwei Mao's - Portrait 2"
+                      src={portrait_2}
                       fill
                       sizes="(max-width: 768px) 213px, 33vw"
                       priority
