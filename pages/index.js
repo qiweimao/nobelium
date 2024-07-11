@@ -13,10 +13,10 @@ import Image from 'next/image';
 
 import miata from 'public/homepage/miata.JPG'
 import breadboard from 'public/homepage/breadboard.jpeg'
-import portrait_2 from 'public/homepage/portrait_2.JPG'
+import qiwei_mao_portrait_2 from 'public/homepage/qiwei_mao_portrait_2.JPG'
 import nomi_2 from 'public/homepage/nomi_2.jpeg'
 import jeep from 'public/homepage/jeep.JPG'
-import portrait from 'public/homepage/portrait.JPG'
+import qiwei_mao_portrait_1 from 'public/homepage/qiwei_mao_portrait_1.JPG'
 
 export async function getStaticProps () {
   const posts = await getAllPosts({ includePages: false })
@@ -141,8 +141,8 @@ const Portfolio = () => {
                   </div>
                   <div className="relative sm:row-span-2 row-span-1">
                     <Image
-                      alt="Qiwei Mao - Portrait"
-                      src={portrait}
+                      alt="Qiwei Mao - Portrait 1"
+                      src={qiwei_mao_portrait_1}
                       fill
                       sizes="(max-width: 768px) 213px, 33vw"
                       priority
@@ -152,7 +152,7 @@ const Portfolio = () => {
                   <div className="relative">
                     <Image
                       alt="Qiwei Mao's - Portrait 2"
-                      src={portrait_2}
+                      src={qiwei_mao_portrait_2}
                       fill
                       sizes="(max-width: 768px) 213px, 33vw"
                       priority
