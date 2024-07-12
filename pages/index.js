@@ -18,6 +18,8 @@ import nomi_2 from 'public/homepage/nomi_2.jpeg'
 import jeep from 'public/homepage/jeep.JPG'
 import qiwei_mao_portrait_1 from 'public/homepage/qiwei_mao_portrait_1.JPG'
 
+import YouTubeEmbed from '@/components/YouTubeEmbed';
+
 export async function getStaticProps () {
   const posts = await getAllPosts({ includePages: false })
   const postsToShow = posts.slice(0, clientConfig.postsPerPage)
@@ -128,6 +130,7 @@ const Portfolio = () => {
                 <p className="leading-8 text-gray-700 dark:text-gray-300">
                   <p>I&apos;m a geotechnical engineer with a passion for IoT systems. I&apos;m exploring low-power microcontrollers and LoRa communication systems to enable both hobbyist remote monitoring solutions and industrial-grade monitoring or control systems.</p>
                 </p>
+                <YouTubeEmbed embedId="CaR1bvXQmzk" />
                 <div className="grid grid-cols-2 grid-rows-4 sm:grid-rows-3 sm:grid-cols-3 gap-4 my-8">
                   <div className="relative h-40">
                     <Image
