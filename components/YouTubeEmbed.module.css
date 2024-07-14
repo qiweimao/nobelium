@@ -1,15 +1,16 @@
-/* components/YouTubeEmbed.module.css */
-.video-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
+.videoResponsive {
   position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
   height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: black;
 }
 
-.video-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
+.videoResponsive iframe {
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
