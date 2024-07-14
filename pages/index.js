@@ -132,16 +132,6 @@ const Portfolio = () => {
                 </p>
                 <YouTubeEmbed embedId="CaR1bvXQmzk" />
                 <div className="grid grid-cols-2 grid-rows-4 sm:grid-rows-3 sm:grid-cols-3 gap-4 my-8">
-                  <div className="relative h-40">
-                    <Image
-                      alt="Qiwei Mao - Miata"
-                      src={miata}
-                      fill
-                      sizes="(max-width: 768px) 213px, 33vw"
-                      priority
-                      className="rounded-lg object-cover"
-                    />
-                  </div>
                   <div className="relative sm:row-span-2 row-span-1">
                     <Image
                       alt="Qiwei Mao - Portrait 1"
@@ -156,6 +146,16 @@ const Portfolio = () => {
                     <Image
                       alt="Qiwei Mao's - Portrait 2"
                       src={qiwei_mao_portrait_2}
+                      fill
+                      sizes="(max-width: 768px) 213px, 33vw"
+                      priority
+                      className="rounded-lg object-cover"
+                    />
+                  </div>
+                  <div className="relative h-40">
+                    <Image
+                      alt="Qiwei Mao - Miata"
+                      src={miata}
                       fill
                       sizes="(max-width: 768px) 213px, 33vw"
                       priority
