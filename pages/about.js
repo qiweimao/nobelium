@@ -134,7 +134,7 @@ const Portfolio = () => {
                   With integrated circuits becoming increasingly powerful, compact, energy-efficient, and affordable, MCUs can now handle complex tasks with multi-core processing while maintaining connectivity through Bluetooth, WiFi, and local radio transmission systems like LoRa.
                 </p>
                 <p>
-                  This technological advancement opens up immense possibilities, particularly in the civil engineering industry, where legacy companies are often slow to adopt new technologies. The advent of Raspberry Pi demonstrated how hobbyists could create reliable and advanced systems, though energy consumption remained an issue. Now, with MCUs' enhanced capabilities, they can read sensors, manage cameras, and simultaneously act as web servers or open up APIs to clients.
+                  This technological advancement opens up immense possibilities, particularly in the civil engineering industry, where legacy companies are often slow to adopt new technologies. The advent of Raspberry Pi demonstrated how hobbyists could create reliable and advanced systems, though energy consumption remained an issue. Now, with MCUs&apos; enhanced capabilities, they can read sensors, manage cameras, and simultaneously act as web servers or open up APIs to clients.
                 </p>
                 <p>
                   By developing reliable hardware systems based on these new MCUs and user-friendly UI interfaces, older systems cannot compete in terms of cost, reliability, or energy efficiency.
