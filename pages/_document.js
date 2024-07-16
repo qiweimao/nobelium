@@ -88,7 +88,7 @@ class MyDocument extends Document {
               </noscript>
             </>
           )}
-          <link rel="icon" href="/favicon_qm.ico" />
+          <link rel="icon" href="/apple-touch-icon.png" />
           <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed"></link>
           {config.appearance === 'auto'
             ? (
