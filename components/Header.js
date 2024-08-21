@@ -10,7 +10,7 @@ const NavBar = () => {
   const locale = useLocale()
   const links = [
     { id: 2, name: locale.NAV.HOME, to: 'https://www.qiweimao.dev/', show: true, external: false },
-    { id: 0, name: locale.NAV.INDEX, to: 'blog', show: true },
+    { id: 0, name: locale.NAV.INDEX, to: '/blog', show: true },
     { id: 1, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
     { id: 3, name: locale.NAV.SEARCH, to: '/search', show: true }
   ]
