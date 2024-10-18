@@ -24,4 +24,4 @@ const YouTubeShortsEmbed = ({ embedId }) => (
   </div>
 );
 
-export default YouTubeEmbed;
+export { YouTubeEmbed, YouTubeShortsEmbed };
