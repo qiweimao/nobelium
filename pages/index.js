@@ -18,7 +18,7 @@ import nomi_2 from 'public/homepage/nomi_2.jpeg'
 import jeep from 'public/homepage/jeep.JPG'
 import qiwei_mao_portrait_1 from 'public/homepage/qiwei_mao_portrait_1.JPG'
 
-import YouTubeEmbed from '@/components/YouTubeEmbed';
+import {YouTubeEmbed, YouTubeShortsEmbed} from '@/components/YouTubeEmbed';
 
 export async function getStaticProps () {
   const posts = await getAllPosts({ includePages: false })
