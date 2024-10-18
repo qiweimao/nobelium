@@ -13,7 +13,7 @@ const YouTubeEmbed = ({ embedId }) => (
 );
 
 const YouTubeShortsEmbed = ({ embedId }) => (
-  <div className={styles.youtubeshorts-embed}>
+  <div className={styles.youtubeshortsembed}>
     <iframe
       src={`https://www.youtube.com/embed/${embedId}`}
       frameBorder="0"
