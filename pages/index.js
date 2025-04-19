@@ -137,7 +137,7 @@ const Portfolio = () => {
                   I climb rocks: <a href="https://www.mountainproject.com/user/201916117/qiwei-mao" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 dark:text-blue-400"> Mountain Project</a>
                 </p>
                 <p className="leading-8 text-gray-700 dark:text-gray-300">
-                  Current Github Project: <a href="https://github.com/qiweimao/ESP32-Datalogger" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 dark:text-blue-400"> Mountain Project</a>
+                  Current Github Project: <a href="https://github.com/qiweimao/ESP32-Datalogger" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 dark:text-blue-400"> Repo</a>
                 </p>
 
                 <p className="leading-8 text-gray-700 dark:text-gray-300">
