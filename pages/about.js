@@ -127,26 +127,26 @@ const Portfolio = () => {
                 </h1>
               </header>
               <main>
-                <p>
+                <p className="leading-8 text-gray-700 dark:text-gray-300">
                   Hi, I&apos;m Qiwei Mao, a geotechnical engineer with a passion for IoT systems. My focus lies in exploring low-power microcontrollers (MCUs) and LoRa communication systems to develop both hobbyist remote monitoring solutions and industrial-grade monitoring or control systems.
                 </p>
-                <p>
+                <p className="leading-8 text-gray-700 dark:text-gray-300">
                   With integrated circuits becoming increasingly powerful, compact, energy-efficient, and affordable, MCUs can now handle complex tasks with multi-core processing while maintaining connectivity through Bluetooth, WiFi, and local radio transmission systems like LoRa.
                 </p>
-                <p>
+                <p className="leading-8 text-gray-700 dark:text-gray-300">
                   This technological advancement opens up immense possibilities, particularly in the civil engineering industry, where legacy companies are often slow to adopt new technologies. The advent of Raspberry Pi demonstrated how hobbyists could create reliable and advanced systems, though energy consumption remained an issue. Now, with MCUs&apos; enhanced capabilities, they can read sensors, manage cameras, and simultaneously act as web servers or open up APIs to clients.
                 </p>
-                <p>
+                <p className="leading-8 text-gray-700 dark:text-gray-300">
                   By developing reliable hardware systems based on these new MCUs and user-friendly UI interfaces, older systems cannot compete in terms of cost, reliability, or energy efficiency.
                 </p>
-                <p>
+                <p className="leading-8 text-gray-700 dark:text-gray-300">
                   If you are interested in my work, let&apos;s collaborate on Github.
                 </p>
                   Qiwei Mao
-                <p>
+                <p className="leading-8 text-gray-700 dark:text-gray-300">
                 </p>
                   LinkedIn | Github | Portfolio
-                <p>
+                <p className="leading-8 text-gray-700 dark:text-gray-300">
 
                 </p>
               </main>
