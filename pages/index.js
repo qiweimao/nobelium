@@ -128,10 +128,16 @@ const Portfolio = () => {
               </header>
               <main>
                 <p className="leading-8 text-gray-700 dark:text-gray-300">
-                  New: I started a YouTube Channel: <a href="https://www.youtube.com/@QiweiMao" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 dark:text-blue-400">youtube.com/@QiweiMao</a>
+                  I started a YouTube Channel: <a href="https://www.youtube.com/@QiweiMao" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 dark:text-blue-400">youtube.com/@QiweiMao</a>
                 </p>
                 <p className="leading-8 text-gray-700 dark:text-gray-300">
-                  New: My thesis on earthquake engineering: <a href="https://repository.gatech.edu/entities/publication/28fe4f07-cb8f-480a-a71e-09daa803a2ff" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 dark:text-blue-400">link to Georgia Tech repo</a>
+                  My thesis on earthquake engineering: <a href="https://repository.gatech.edu/entities/publication/28fe4f07-cb8f-480a-a71e-09daa803a2ff" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 dark:text-blue-400"> Georgia Tech repo</a>
+                </p>
+                <p className="leading-8 text-gray-700 dark:text-gray-300">
+                  I climb rocks: <a href="https://www.mountainproject.com/user/201916117/qiwei-mao" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 dark:text-blue-400"> Mountain Project</a>
+                </p>
+                <p className="leading-8 text-gray-700 dark:text-gray-300">
+                  Current Github Project: <a href="https://github.com/qiweimao/ESP32-Datalogger" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 dark:text-blue-400"> Mountain Project</a>
                 </p>
 
                 <p className="leading-8 text-gray-700 dark:text-gray-300">
