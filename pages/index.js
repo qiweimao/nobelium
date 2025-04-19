@@ -130,6 +130,9 @@ const Portfolio = () => {
                 <p className="leading-8 text-gray-700 dark:text-gray-300">
                   New: I started a YouTube Channel: <a href="https://www.youtube.com/@QiweiMao" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 dark:text-blue-400">youtube.com/@QiweiMao</a>
                 </p>
+                <p className="leading-8 text-gray-700 dark:text-gray-300">
+                  New: My thesis on earthquake engineering: <a href="https://repository.gatech.edu/entities/publication/28fe4f07-cb8f-480a-a71e-09daa803a2ff" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 dark:text-blue-400">link to Georgia Tech repo</a>
+                </p>
 
                 <p className="leading-8 text-gray-700 dark:text-gray-300">
                   <p>I&apos;m a geotechnical engineer based in Atlanta GA, with a passion for IoT systems. I&apos;m exploring low-power microcontrollers and LoRa communication systems to enable both hobbyist remote monitoring solutions and industrial-grade monitoring or control systems.</p>
