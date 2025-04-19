@@ -142,12 +142,33 @@ const Portfolio = () => {
                 <p className="leading-8 text-gray-700 dark:text-gray-300">
                   If you are interested in my work, let&apos;s collaborate on Github.
                 </p>
+                <p className="leading-8 text-gray-700 dark:text-gray-300">
                   Qiwei Mao
-                <p className="leading-8 text-gray-700 dark:text-gray-300">
                 </p>
-                  LinkedIn | Github | Portfolio
                 <p className="leading-8 text-gray-700 dark:text-gray-300">
-
+                  <a href="https://www.linkedin.com/in/qiweimao" target="_blank" rel="noopener noreferrer">LinkedIn</a> |{" "}
+                  <a href="https://github.com/qiweimao" target="_blank" rel="noopener noreferrer">GitHub</a> |{" "}
+                  <a href="/portfolio" target="_blank" rel="noopener noreferrer">Portfolio</a>
+                  <br />
+                  My repo for LoRaLite:{" "}
+                  <a href="https://registry.platformio.org/libraries/qiweimao/LoRaLite" target="_blank" rel="noopener noreferrer">
+                    https://registry.platformio.org/libraries/qiweimao/LoRaLite
+                  </a>
+                  <br />
+                  My thesis on ResearchGate:{" "}
+                  <a href="https://www.researchgate.net/publication/381109822_PERFORMANCE-BASED_PROBABILISTIC_ASSESSMENT_OF_LIQUEFACTION-INDUCED_BUILDING_SETTLEMENTS_A_Dissertation_Presented_to_The_Academic_Faculty_PERFORMANCE-BASED_PROBABILISTIC_ASSESSMENT_OF_LIQUEFACTION-INDU" target="_blank" rel="noopener noreferrer">
+                    View on ResearchGate
+                  </a>
+                  <br />
+                  My thesis at Georgia Tech (PDF):{" "}
+                  <a href="https://repository.gatech.edu/entities/publication/28fe4f07-cb8f-480a-a71e-09daa803a2ff" target="_blank" rel="noopener noreferrer">
+                    View PDF on GT Repository
+                  </a>
+                  <br />
+                  My advisor Jorge Macedo at Georgia Tech:{" "}
+                  <a href="https://macedo.ce.gatech.edu/group/" target="_blank" rel="noopener noreferrer">
+                    https://macedo.ce.gatech.edu/group/
+                  </a>
                 </p>
               </main>
             </article>
