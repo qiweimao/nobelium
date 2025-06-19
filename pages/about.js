@@ -128,31 +128,6 @@ const Portfolio = () => {
               </header>
               <main>
                 <p className="leading-8 text-gray-700 dark:text-gray-300">
-                  <a href="https://www.linkedin.com/in/qiweimao" target="_blank" rel="noopener noreferrer">LinkedIn</a> |{" "}
-                  <a href="https://github.com/qiweimao" target="_blank" rel="noopener noreferrer">GitHub</a> |{" "}
-                  <a href="/portfolio" target="_blank" rel="noopener noreferrer">Portfolio</a>
-                  <br />
-                  My repo for LoRaLite:{" "}
-                  <a href="https://registry.platformio.org/libraries/qiweimao/LoRaLite" target="_blank" rel="noopener noreferrer">
-                    https://registry.platformio.org/libraries/qiweimao/LoRaLite
-                  </a>
-                  <br />
-                  My thesis on ResearchGate:{" "}
-                  <a href="https://www.researchgate.net/publication/381109822_PERFORMANCE-BASED_PROBABILISTIC_ASSESSMENT_OF_LIQUEFACTION-INDUCED_BUILDING_SETTLEMENTS_A_Dissertation_Presented_to_The_Academic_Faculty_PERFORMANCE-BASED_PROBABILISTIC_ASSESSMENT_OF_LIQUEFACTION-INDU" target="_blank" rel="noopener noreferrer">
-                    View on ResearchGate
-                  </a>
-                  <br />
-                  My thesis at Georgia Tech (PDF):{" "}
-                  <a href="https://repository.gatech.edu/entities/publication/28fe4f07-cb8f-480a-a71e-09daa803a2ff" target="_blank" rel="noopener noreferrer">
-                    View PDF on GT Repository
-                  </a>
-                  <br />
-                  My advisor Jorge Macedo at Georgia Tech:{" "}
-                  <a href="https://macedo.ce.gatech.edu/group/" target="_blank" rel="noopener noreferrer">
-                    https://macedo.ce.gatech.edu/group/
-                  </a>
-                </p>
-                <p className="leading-8 text-gray-700 dark:text-gray-300">
                   Hi, I&apos;m Qiwei Mao, a geotechnical engineer with a passion for IoT systems. My focus lies in exploring low-power microcontrollers (MCUs) and LoRa communication systems to develop both hobbyist remote monitoring solutions and industrial-grade monitoring or control systems.
                 </p>
                 <p className="leading-8 text-gray-700 dark:text-gray-300">
@@ -166,15 +141,6 @@ const Portfolio = () => {
                 </p>
                 <p className="leading-8 text-gray-700 dark:text-gray-300">
                   If you are interested in my work, let&apos;s collaborate on Github.
-                </p>
-                <p className="leading-8 text-gray-700 dark:text-gray-300">
-                  Qiwei Mao
-
-
-                  https://theorg.com/org/geocomp/org-chart/qiwei-mao
-                  https://wiza.co/d/geocomp-corporation/9915/qiwei-mao
-                  https://loop.frontiersin.org/people/2764078/bio
-                  https://www.dnb.com/contact-directory/contact-profile.qiwei_mao.1882b18d6d354ebbb477c571330c70bf.html
                 </p>
               </main>
             </article>
