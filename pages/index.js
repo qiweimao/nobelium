@@ -142,8 +142,6 @@ const Portfolio = () => {
                 <p className="leading-8 text-gray-700 dark:text-gray-300">
                   <p>I&apos;m a geotechnical engineer based in Atlanta GA, with a passion for IoT systems. I&apos;m exploring low-power microcontrollers and LoRa communication systems to enable both hobbyist remote monitoring solutions and industrial-grade monitoring or control systems.</p>
                 </p>
-                {/* <YouTubeShortsEmbed embedId="4cZl8wcums0" />
-                <YouTubeEmbed embedId="CaR1bvXQmzk" /> */}
                 <div className="grid grid-cols-2 grid-rows-4 sm:grid-rows-3 sm:grid-cols-3 gap-4 my-8">
                   <div className="relative sm:row-span-2 row-span-1">
                     <Image
