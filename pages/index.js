@@ -128,21 +128,9 @@ const Portfolio = () => {
               </header>
               <main>
                 <p className="leading-8 text-gray-700 dark:text-gray-300">
-                  I started a YouTube Channel: <a href="https://www.youtube.com/@QiweiMao" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 dark:text-blue-400">youtube.com/@QiweiMao</a>
-                </p>
-                <p className="leading-8 text-gray-700 dark:text-gray-300">
-                  I studied earthquake engineering: <a href="https://repository.gatech.edu/entities/publication/28fe4f07-cb8f-480a-a71e-09daa803a2ff" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 dark:text-blue-400"> Georgia Tech repo</a>
-                </p>
-                <p className="leading-8 text-gray-700 dark:text-gray-300">
-                  I climb rocks: <a href="https://www.mountainproject.com/user/201916117/qiwei-mao" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 dark:text-blue-400"> Mountain Project</a>
-                </p>
-                <p className="leading-8 text-gray-700 dark:text-gray-300">
-                  I code: <a href="https://github.com/qiweimao/ESP32-Datalogger" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 dark:text-blue-400"> Repo</a>
-                </p>
-                <p className="leading-8 text-gray-700 dark:text-gray-300">
                   <p>I&apos;m a geotechnical engineer based in Atlanta GA, with a passion for IoT systems. I&apos;m exploring low-power microcontrollers and LoRa communication systems to enable both hobbyist remote monitoring solutions and industrial-grade monitoring or control systems.</p>
                 </p>
-                <div className="grid grid-cols-2 grid-rows-4 sm:grid-rows-3 sm:grid-cols-3 gap-4 my-8">
+                {/* <div className="grid grid-cols-2 grid-rows-4 sm:grid-rows-3 sm:grid-cols-3 gap-4 my-8">
                   <div className="relative sm:row-span-2 row-span-1">
                     <Image
                       alt="Qiwei Mao - Portrait 1"
@@ -203,7 +191,7 @@ const Portfolio = () => {
                       className="rounded-lg object-cover"
                     />
                   </div>
-                </div>
+                </div> */}
                 <p>
                     <Badge href="https://github.com/qiweimao">
                       <img
